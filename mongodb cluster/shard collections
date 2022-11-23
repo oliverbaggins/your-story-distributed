@@ -1,0 +1,9 @@
+The collection is divided between the shards
+
+sh.enableSharding("pi")
+
+db.apps.createIndex({"slug": "hashed"}) 
+
+sh.shardCollection("pi.apps", {"slug": "hashed"})
+
+db.articles.getShardDistribution()

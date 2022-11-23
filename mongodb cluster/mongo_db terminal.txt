@@ -1,0 +1,14 @@
+iniciar terminal com um container: docker exec -it mongo_db bash
+
+entrar no terminal do mongodb: mongosh
+
+comandos terminal mongodb:
+
+show dbs - lista todos os bancos de dados, o alias desse comando é show databases;
+use [nome-do-banco] - selecionar um banco de dados, ex.: use admin;
+db - verifica qual o banco de dados em uso no momento;
+show collections - Mostra as collections;
+db.nome_da_colecao.find().pretty() - Ler todos os dados de uma coleção, ex.:
+use temp
+db.dropDatabase()
+db.collection.drop()

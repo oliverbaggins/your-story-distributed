@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+body {
+    background-color: #101419;
+    font-family: 'Jost', sans-serif;
+}
+.row-1 {
+    border-bottom: 2px solid;
+    border-color: #468C98;
+}
+.blog {
+    margin: 7px 0px 7px 1%;
+    font-size: 20px;
+    font-weight: 550;
+    color: #FFFCF2;
+}
+.form-group {
+    color: #FFFCF2;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.form-control {
+    background-color: #101419;
+    border-radius: 10px;
+    border: 2px solid #468C98;
+}
+.title {
+    text-align: center;
+    margin-top: 22px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFCF2;
+    min-width: fit-content;
+}
+.row-2 .row .col{
+    left: 25%;
+    text-align: left;
+    max-width: 50%;
+    min-width: 50%;
+}
+.row-2 label {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.btn {
+    background-color: #DD7596;
+    color: #FFFCF2;
+    font-size: 22px;
+    border-radius: 16px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #468C98;
+    color: #FFFCF2;
+}

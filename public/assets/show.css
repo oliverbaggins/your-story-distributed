@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+body {
+    background-color: #101419;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+.row-1 {
+    border-bottom: 2px solid;
+    border-color: #468C98;
+}
+.blog {
+    margin: 7px 0px 7px 1%;
+    font-size: 20px;
+    font-weight: 550;
+}
+.caixa {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.caixa p {
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 14px;
+    padding-bottom: 8px;
+}
+.title {
+    margin-top: 8px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.date {
+    display: inline;
+    margin-bottom: px;
+    color: rgba(255, 252, 242, 0.2);
+    margin-right: 5px;
+    font-size: 24px;
+}
+.row_3 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.row_3 .text{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.btn {
+    background-color: rgba(255, 252, 242, 0.2);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-bottom: 8px;
+}
+.btn-2 {
+    margin-left: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}

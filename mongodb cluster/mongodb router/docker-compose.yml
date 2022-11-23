@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    mongo-router:
+        container_name: mongo-router
+        network_mode: mongo-shard
+        command: mongos --port 27017 --configdb configserver/mongo-config01:27017,mongo-config02:27017,mongo-config03:27017 --bind_ip_all
+        image: mongo
+        ports:
+          - 8080:27017
+  

@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+    shard1a:
+        container_name: mongo-shard1a
+        network_mode: mongo-shard
+        command: mongod --port 27017 --shardsvr --replSet shard01
+        image: mongo
+    shard1b:
+        container_name: mongo-shard1b
+        network_mode: mongo-shard
+        command: mongod --port 27017 --shardsvr --replSet shard01
+        image: mongo

@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/public/assets/new.css">
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input required value="<%= article.title %>" class="form-control" type="text" name="title" id="title">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea name="description" id="description" class="form-control" ><%= article.description %></textarea>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label for="markdown">Markdown</label>
+            <textarea required class="form-control" name="markdown" id="markdown"><%= article.markdown %></textarea>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <a href="/" class="btn">Cancel</a>
+        <button class="btn">Save</button>
+    </div>
+</div>
+</div>

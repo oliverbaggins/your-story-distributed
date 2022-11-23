@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+    mongocf1:
+        container_name: mongo-config01
+        network_mode: mongo-shard
+        command: mongod --configsvr --replSet configserver --port 27017
+        image: mongo
+    mongocf2:
+        container_name: mongo-config02
+        network_mode: mongo-shard
+        command: mongod --configsvr --replSet configserver --port 27017
+        image: mongo
+    mongocf3:
+        container_name: mongo-config03
+        network_mode: mongo-shard
+        command: mongod --configsvr --replSet configserver --port 27017
+        image: mongo

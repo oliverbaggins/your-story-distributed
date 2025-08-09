@@ -90,15 +90,15 @@ mongos --configdb configserver/mongo-config01:27017,mongo-config02:27017,mongo-c
 
 ```mermaid
 flowchart TD
-    User[Usuário] --> Nginx
-    Nginx --> App[App (Node.js + Express)]
-    App --> Mongos[Mongo Router (mongos)]
-    Mongos --> CS1[Config Server 1]
-    Mongos --> CS2[Config Server 2]
-    Mongos --> CS3[Config Server 3]
-    Mongos --> S1[Shard 1 (Replica Set)]
-    Mongos --> S2[Shard 2 (Replica Set)]
-    Mongos --> S3[Shard 3 (Replica Set)]
+    User["Usuário"] --> Nginx["Nginx"]
+    Nginx["Nginx"] --> App["App (Node.js + Express)"]
+    App["App (Node.js + Express)"] --> Mongos["Mongo Router (mongos)"]
+    Mongos["Mongo Router (mongos)"] --> CS1["Config Server 1"]
+    Mongos["Mongo Router (mongos)"] --> CS2["Config Server 2"]
+    Mongos["Mongo Router (mongos)"] --> CS3["Config Server 3"]
+    Mongos["Mongo Router (mongos)"] --> S1["Shard 1 (Replica Set)"]
+    Mongos["Mongo Router (mongos)"] --> S2["Shard 2 (Replica Set)"]
+    Mongos["Mongo Router (mongos)"] --> S3["Shard 3 (Replica Set)"]
 ```
 
 ---

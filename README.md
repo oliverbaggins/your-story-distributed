@@ -131,8 +131,3 @@ docker-compose up --build
 
 ### Acessar a aplicação
 - **App**: [http://localhost:5000](http://localhost:5000)
-
----
-
-## Licença
-Distribuído sob licença MIT.

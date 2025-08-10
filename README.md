@@ -1,4 +1,4 @@
-# Your Story — Plataforma Distribuída de Histórias Anônimas
+# Your Story – Plataforma Distribuída de Histórias Anônimas
 
 Este projeto é uma aplicação web para compartilhar histórias anonimamente, construída para demonstrar conceitos de **Sistemas Distribuídos** utilizando **MongoDB Sharding, replicação e balanceamento de carga com Nginx**.
 

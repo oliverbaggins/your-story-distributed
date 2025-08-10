@@ -33,7 +33,7 @@ A arquitetura foi projetada para garantir **escalabilidade horizontal**, **alta 
 ## Estrutura do Projeto
 
 ```
-pi-mongodb-shard/
+your-story-distributed/
 │
 ├── server.js                # Servidor Express
 ├── models/article.js         # Modelo de dados do artigo
